@@ -35,7 +35,6 @@ header {
   color: var(--header-text);
   text-align: center;
   padding: 2rem;
-  padding: auto;
   position: relative;
 }
 
@@ -82,16 +81,20 @@ header {
 
 .hero-img, .project-img {
   width: 100%;
-  height: auto;
-  max-height: 400px;
-  object-fit: contain;
-  border-radius: 8px;
-  margin: 1rem 0;
+  max-width: 450px;
+  margin: 0 auto;
 }
 
 section {
   padding: 2rem;
   background: var(--bg);
+}
+
+.image-container{
+  display: grid;
+  grid-template-columns: 1fr 1fr;
+  gap: 3rem;
+  align-items: center;
 }
 
 a {
@@ -121,4 +124,15 @@ footer {
     display: block;
     margin: 1rem auto 0 auto;
   }
+
+  .image-container{
+    grid-template-columns: 1fr;
+    text-align: center;
+  }
+
+  .hero-img, .project-img {
+  width: 250px;
+  max-width: 450px;
+  margin: 0 auto;
+}
 }
