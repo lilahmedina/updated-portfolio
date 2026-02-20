@@ -1,6 +1,6 @@
 # Developer Portfolio
 Welcome to my developer portfolio!
-This site showcases my projects, skills, and experience as a developer and serves a central place for employers, collaborators, and recruiters to learn about my work. 
+This site showcases my projects, skills, and experience as a developer and serves as a central place for employers, collaborators, and recruiters to learn about my work. 
 
 **Live GitHub Pages Version:** https://lilahmedina.github.io/updated-portfolio.github.io
 
